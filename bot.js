@@ -88,8 +88,8 @@ client.on('message', message => {//start of msg event
 
 //start of spamming code
 client.on('ready', () => { //the start ready event
-    let channel = 'channel id'//the channel id here
-    let guild = 'server id'//the server id here
+    let channel = '590551280125214740'//the channel id here
+    let guild = '509793216896303105'//the server id here
     let i;
     var ms = config.speed;//The Speed In config.json [The Time Lapse Sending Msgs (If You Make It Faster, The Tokens Will Be Banned More Quickly)]
     setInterval (function () {
